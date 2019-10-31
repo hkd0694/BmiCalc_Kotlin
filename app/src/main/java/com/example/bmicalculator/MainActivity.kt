@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         edit.putInt("KEY_WEIGHT",weight).putInt("KEY_HEIGHT",height).apply()
     }
 
-    //저장한 데이터를 불러오는 함수
+    //SharePreference에 저장한 데이터를 불러오는 함수
     private fun loadData(){
         val pref = this.getSharedPreferences("prefs",0)
         val weight = pref.getInt("KEY_WEIGHT",0)

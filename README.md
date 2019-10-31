@@ -1,4 +1,4 @@
-# Kotlin Study (1/9)
+# Kotlin Study (1/9) - 2019/10/29
 
 Kotlin을 공부하기 위해 간단한 앱부터 복잡한 앱까지 만들어 봄으로써 Kotlin에 대해 하기!
 
@@ -114,7 +114,7 @@ toast("$bmi")
 
 ## BmiCalc_Kotlin을 통해 배운 것들
 
-> ### when
+### When
 
 when문은 Java의 switch문에 대응하는 것으로 사용방법이 다양하다. 값이 하나인 경우는 물론 콤마(,)나 in 연산자로 값의 범위를 자유롭게 지정하는 것이 특징이다.
 
@@ -134,7 +134,7 @@ when문은 Java의 switch문에 대응하는 것으로 사용방법이 다양하
 
 ```
 
->### 'kotlin-android-extensions'
+### 'kotlin-android-extensions'
 
 Android Java와는 다르게 Android Kotlin에서는 레이아웃에 배치한 뷰 ID가 자동으로 임포트되어 코틀린 코드에서 바로 사용할 수가 있다. 이러한 이유는 코틀린 프로젝트에는 기본적으로 'kotlin-android-extensions' 플러그인이 설정되어 있기 때문이다.
 
